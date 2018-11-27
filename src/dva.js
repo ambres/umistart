@@ -8,7 +8,7 @@ export function config() {
     },
     initialState: {
       global: {
-        text: '佰平学生端',
+        text: '',
         userInfo: {},
         bannerAll: [],
         menuAll: [],
