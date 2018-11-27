@@ -1,0 +1,95 @@
+html,
+body,
+:global(#root) {
+  height: 100%;
+  :global(.fade-enter) {
+    opacity: 1;
+    z-index: 1;
+    left: -100%;
+  }
+  :global(.fade-enter-active) {
+    transform: translate3D(100%, 0, 0);
+    transition: all 10ms ease-out;
+  }
+}
+
+body,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+table,
+td,
+img,
+div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  background: #fff;
+  color: #333;
+  font-size: .24rem;
+  font-family: "Microsoft YaHei", "微软雅黑", "Microsoft JhengHei", "Arial", "Verdana";
+}
+ul,
+ol {
+  list-style-type: none;
+}
+select,
+input,
+img,
+select {
+  vertical-align: middle;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #009;
+}
+a:visited {
+  color: #800080;
+}
+a:hover,
+a:active,
+a:focus {
+  color: #c00;
+  text-decoration: underline;
+}
+
+// .fade-enter {
+//   opacity: 0;
+//   z-index: 1;
+// }
+
+// .fade-enter.fade-enter-active {
+//   opacity: 1;
+//   transition: all 250ms ease-in;
+// }
+
+
+// // .fade-view{
+// //   position: absolute;
+// //   width:100%;
+// //   transition: all .4s cubic-bezier(.55,0,.1,1);
+// //   margin-bottom: 0.98rem;
+// // }
+// .fade-enter-active,.fade-leave-active{
+//   opacity: 0;
+//   -webkit-transform: translate(50px, 0);
+//   transform: translate(50px, 0);
+// }
+// .fade-enter,.fade-leave-active{
+//   opacity: 0;
+//   -webkit-transform: translate(-50px, 0);
+//   transform: translate(-50px, 0);
+// }
