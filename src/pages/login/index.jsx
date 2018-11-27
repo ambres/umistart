@@ -11,7 +11,6 @@ import {
   Modal
 } from "antd-mobile";
 import { createForm } from "rc-form";
-import logo from "../../assets/logo.png";
 import router from "umi/router";
 import { getLocalStorage } from "../../utils/method";
 
@@ -154,9 +153,9 @@ class Login extends Component {
       <div>
         <div className={`${styles["header"]}`}>
           <div className={`${styles["content"]}`}>
-            <img src={logo} alt="" />
+          
             <WhiteSpace size="md" />
-            <p>佰平学生端登录</p>
+            <p>登录</p>
           </div>
         </div>
         <List>
