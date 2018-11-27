@@ -1,12 +1,7 @@
 # DVA-UMI-MOBILE
-## 1.0版本
-<img src="./src/assets/b.png"/>
 ## 特性
 1.使用hd方案
-## 使用说明
-1.在首页头部bar没有返回按钮
-2.在登录页没有头部bar（在utils/config里面设置）
-3.注意首页或者登录页的图片（rem）
+
 ### 目录结构
 
 ```bash
